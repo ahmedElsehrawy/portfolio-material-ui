@@ -1,0 +1,14 @@
+.footer {
+  max-width: 100vw;
+  background-color: #151515;
+  color: white;
+  padding: 20px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-icons {
+  margin-bottom: 20px;
+}

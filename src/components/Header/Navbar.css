@@ -1,0 +1,27 @@
+.logo {
+  flex: 1;
+}
+
+.logo > a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.links > a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .menu-icon {
+    display: block;
+  }
+  .links {
+    display: none;
+  }
+}

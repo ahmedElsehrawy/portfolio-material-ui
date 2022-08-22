@@ -1,0 +1,26 @@
+.overview {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 20px;
+}
+
+.overview__text {
+  margin-bottom: 50px;
+  background-color: rgba(220, 228, 255, 0.281);
+  padding: 25px;
+}
+
+.overview__picture {
+  background: url("../images/netflixOverview.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1000px;
+  width: 100%;
+}
